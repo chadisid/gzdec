@@ -28,12 +28,12 @@ git clone https://github.com/chadisid/gzdec.git
 Build and install the plugins:
 ```
 cd gzdec
-./configure --gstreamer-version=1.0
+./configure --with-gstreamer-version=1.0
 make
 make install
 ```
 
-You can choose which GStreamer version to use with the `--gstreamer-version` option. (--gstreamer-version=0.10 to use GStreamer 0.10)
+You can choose which GStreamer version to use with the `--with-gstreamer-version` option. (--with-gstreamer-version=0.10 to use GStreamer 0.10)
 
 ## Running tests on plugins
 
