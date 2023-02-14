@@ -12,7 +12,7 @@ AC_ARG_WITH([gstreamer-version],
     AC_HELP_STRING([--gstreamer-version=VERSION],
                    [build against the specified GStreamer API version
                     @<:@default=1.0@:>@]),
-    [GST_API_VERSION="$with_gstreamer_api"], [GST_API_VERSION=1.0])
+    [GST_API_VERSION="$gstreamer_version"], [GST_API_VERSION=1.0])
 
 case $GST_API_VERSION in
 0.10)
