@@ -39,4 +39,5 @@ You can choose which GStreamer version to use with the `--with-gstreamer-version
 
 ```
 GST_PLUGIN_PATH=/usr/local/lib/gstreamer-1.0 gst-launch-1.0 -v filesrc location=file.txt.gz ! gzdec ! filesink location=file_dec.txt
+GST_PLUGIN_PATH=/usr/local/lib/gstreamer-0.10 gst-launch-0.10 -v filesrc location=file.txt.gz ! gzdec ! filesink location=file_dec.txt
 ```
