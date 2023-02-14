@@ -1,3 +1,4 @@
+
 # GStreamer plugins for decoding gz files
 
 This GStreamer plugin gzdec will decode data with zlib library.
