@@ -28,7 +28,6 @@ git clone https://github.com/chadisid/gzdec.git
 Build and install the plugins:
 ```
 cd gzdec
-./autogen.sh
 ./configure --gstreamer-version=1.0
 make
 make install
