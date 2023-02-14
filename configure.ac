@@ -8,7 +8,7 @@ dnl required versions of gstreamer and plugins-base
 dnl GST_REQUIRED=1.0.0
 dnl GSTPB_REQUIRED=1.0.0
 
-AC_ARG_WITH([gstreamer-api],
+AC_ARG_WITH([gstreamer-version],
     AC_HELP_STRING([--gstreamer-version=VERSION],
                    [build against the specified GStreamer API version
                     @<:@default=1.0@:>@]),
